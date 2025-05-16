@@ -8,3 +8,10 @@ def search_replace(my_list, search, replace):
         else:
             new_list.append(item)
     return new_list
+
+# def search_replace(my_list, search, replace):
+    #return list(map(lambda x: replace if x == search else x, my_list))
+
+# list comperhension
+# def search_replace(my_list, search, replace):
+    #return [replace if x == search else x for x in my_list]
