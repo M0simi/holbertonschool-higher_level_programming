@@ -3,7 +3,7 @@
 
 
 class Square:
-    """class eith private and public inistance"""
+    """class with private and public inistance"""
 
     def __init__(self, size=0):
         if not isinstance(size, int):
