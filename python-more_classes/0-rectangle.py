@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""This is a class for Rectangle"""
+"""This module defines an empty Rectangle class."""
+
+
 class Rectangle:
+    """This is a class for Rectangle"""
 
-
-pass
+    pass
