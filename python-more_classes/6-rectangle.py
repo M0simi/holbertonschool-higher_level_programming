@@ -3,8 +3,8 @@
 
 
 class Rectangle:
-    number_of_instances = 0  # public class attribute
     """This is a class for Rectangle"""
+    number_of_instances = 0  # public class attribute
 
     def __init__(self, width=0, height=0):
         if not isinstance(width, int):
