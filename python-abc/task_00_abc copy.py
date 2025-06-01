@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """
-This module defines an abstract class 'Animal' and its subclasses 'Dog' and 'Cat'.
-
+This module defines an abstract class 'Animal' and its
+ subclasses 'Dog' and 'Cat'.
 The 'Animal' class enforces a contract that all subclasses must implement
-the 'sound' method, which returns a string representing the sound the animal makes.
+the 'sound' method, which returns a string representing the sound the
+animal makes.
 """
 
 from abc import ABC, abstractmethod
