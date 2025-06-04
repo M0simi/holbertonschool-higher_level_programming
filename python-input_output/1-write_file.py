@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This module defines a function that writes text to a file and returns character count.
+This module defines a function that writes text to a file
+and returns character count.
 """
 
 
