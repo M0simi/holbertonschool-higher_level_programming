@@ -32,6 +32,9 @@ class Student:
         Returns:
             dict: Dictionary representation of selected or all attributes.
         """
-        if isinstance(attrs, list) and all(isinstance(attr, str) for attr in attrs):
-            return {key: getattr(self, key) for key in attrs if hasattr(self, key)}
+        if isinstance(attrs, list) and
+        all(isinstance(attr, str) for attr in attrs):
+            return {
+                key: getattr(self, key) for key in attrs if hasattr(self, key)
+                }
         return self.__dict__
