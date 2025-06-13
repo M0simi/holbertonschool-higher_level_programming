@@ -13,5 +13,7 @@ class Student:
 
     def to_json(self):
         if type(attrs) == list and all(type(attr) == str for attr in attrs):
-            return {key: getatter(self,key) fornkey in attrs if hasatter(self, key)}
+            return {
+                key: getatter(self, key)fornkey inattrs if hasatter(self, key)
+                }
         return self.__dict__
