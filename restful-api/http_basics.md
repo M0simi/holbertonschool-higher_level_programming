@@ -31,3 +31,12 @@ Content-Length: 1256
 
 <html>...</html> ```
 
+### ⚠️ Common HTTP Status Codes:
+| Code | Name                  | When It Happens                          |
+| ---- | --------------------- | ---------------------------------------- |
+| 200  | OK                    | Everything is successful                 |
+| 201  | Created               | A new resource has been created          |
+| 400  | Bad Request           | The request was incorrect or malformed   |
+| 401  | Unauthorized          | The user is not authenticated            |
+| 404  | Not Found             | The resource doesn't exist on the server |
+| 500  | Internal Server Error | The server had an unexpected error       |
