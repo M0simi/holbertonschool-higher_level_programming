@@ -8,6 +8,7 @@ This document contains examples of using `curl` to interact with HTTP APIs, incl
 
 ```bash
 curl --version
+
 🔍 Purpose:
 Displays your installed curl version and supported protocols.
 
@@ -47,9 +48,9 @@ curl https://jsonplaceholder.typicode.com/posts | jq
 Pipes the JSON response into jq for cleaner formatting and readability. You must have jq installed.
 
 🧠 Summary of curl Flags
-| Flag | Description                                   |                                |
-| ---- | --------------------------------------------- | ------------------------------ |
-| `-X` | Specifies the request method (e.g. POST, PUT) |                                |
-| `-d` | Sends data in the body of the request         |                                |
-| `-I` | Retrieves only headers                        |                                |
-| \`   | jq\`                                          | Formats JSON output (optional) |
+| Flag | Description                                   |
+|------|-----------------------------------------------|
+| -X   | Specifies the request method (e.g. POST, PUT) |
+| -d   | Sends data in the body of the request         |
+| -I   | Retrieves only headers                        |
+| jq   | Formats JSON output (optional)                |
