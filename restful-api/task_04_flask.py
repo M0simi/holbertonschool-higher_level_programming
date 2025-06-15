@@ -4,10 +4,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 # Users storage (in memory only)
-users = {
-    "jane": {"username": "jane", "name": "Jane", "age": 28, "city": "Los Angeles"},
-    "john": {"username": "john", "name": "John", "age": 30, "city": "New York"}
-}
+users = {}
 
 # 1. Home page
 @app.route('/')
