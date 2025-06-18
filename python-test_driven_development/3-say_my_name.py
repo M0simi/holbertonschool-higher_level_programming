@@ -4,7 +4,7 @@ This module defines a function that prints a person's full name.
 """
 
 
-def say_my_name(first_name, last_name=""):
+def say_my_name(first_name, last_name):
     """
     Prints: My name is <first name> <last name>
 
