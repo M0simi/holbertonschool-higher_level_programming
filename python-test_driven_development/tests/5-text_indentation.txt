@@ -1,0 +1,48 @@
+>>> text_indentation = __import__("5-text_indentation").text_indentation
+
+>>> text_indentation("Hello. World? Test: New one.")
+Hello.
+<BLANKLINE>
+World?
+<BLANKLINE>
+Test:
+<BLANKLINE>
+New one.
+<BLANKLINE>
+
+>>> text_indentation("No punctuation here")
+No punctuation here
+
+>>> text_indentation("   Space   before.   And after?Yes:")
+Space   before.
+<BLANKLINE>
+And after?
+<BLANKLINE>
+Yes:
+<BLANKLINE>
+
+>>> text_indentation("End with something strange!!!")
+End with something strange!!!
+
+>>> text_indentation("")
+
+
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
+
+>>> text_indentation(None)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
+
+>>> text_indentation("Mix: A. B? C.")
+Mix:
+<BLANKLINE>
+A.
+<BLANKLINE>
+B?
+<BLANKLINE>
+C.
+<BLANKLINE>
