@@ -4,7 +4,7 @@ This module defines a function that prints a person's full name.
 """
 
 
-def say_my_name(first_name, last_name):
+def say_my_name(first_name, last_name=""):
     """
     Prints: My name is <first name> <last name>
 
@@ -20,4 +20,4 @@ def say_my_name(first_name, last_name):
     if not isinstance(last_name, str):
         raise TypeError("last_name must be a string")
 
-    return f"My name is {first_name.strip()} {last_name.strip()}"
+    print("My name is {} {}".format(first_name, last_name))
