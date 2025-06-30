@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-
+Script to list all states starting with 'N' from a MySQL database
+Usage: ./1-filter_states.py <username> <password> <database_name>
 """
 
 import MySQL
