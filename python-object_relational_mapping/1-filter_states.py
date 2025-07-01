@@ -13,19 +13,25 @@ if __name__ == "__main__":
 
     # Connect to the database
     db = MySQLdb.connect(
-        host="localhost", port=3306,
-        user=user, passwd=password, db=db_name, charset="utf8"
+        host="localhost",
+        port=3306,
+        user=user,
+        passwd=password,
+        db=db_name,
+        charset="utf8",
     )
 
     # Create a cursor object to execute SQL queries
     cursor = db.cursor()
 
     # Select states starting with 'N' (case-sensitive)
-    cursor.execute("""
+    cursor.execute(
+        """
         SELECT * FROM states
         WHERE name LIKE 'N%'
         ORDER BY id ASC
-    """)
+    """
+    )
 
     # Fetch and print all matching rows
     for row in cursor.fetchall():
