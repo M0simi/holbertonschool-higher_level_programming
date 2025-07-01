@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # Select states starting with 'N' (case-sensitive)
     cursor.execute("""
         SELECT * FROM states
-        WHERE BINARY name LIKE 'N%'
+        WHERE name LIKE 'N%'
         ORDER BY id ASC
     """)
 
