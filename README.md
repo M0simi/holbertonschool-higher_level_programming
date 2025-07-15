@@ -43,6 +43,9 @@ Clone the repo and explore each folder:
 ```bash
 git clone https://github.com/<your-username>/holbertonschool-higher_level_programming.git
 cd holbertonschool-higher_level_programming
+```
 
-Author:
-Created by Meshari Alosimi as part of Holberton School curriculum.
+---
+
+## ✍️ Author
+[Meshari - M0simi](https://github.com/M0simi)
