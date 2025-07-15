@@ -1,4 +1,4 @@
-#!usr/bin/node
+#!usr/bin/env node
 
 const args = process.argv;
 const count = args.length - 2;
