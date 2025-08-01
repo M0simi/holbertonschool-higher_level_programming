@@ -41,7 +41,7 @@ To test a script:
 
 ```bash
 cat <filename.sql> | mysql -uroot -p <database_name>
-
+```
 ---
 
 ## ✍️ Author
